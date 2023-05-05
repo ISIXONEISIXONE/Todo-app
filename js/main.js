@@ -94,7 +94,7 @@ function doneTask(event) {
 function checkEmptyList() {
   if (tasks.length === 0) {
     const emptyListHTML = `<li id="emptyList" class="list-group-item empty-list">
-            <img src="./img/00056289.jpg" alt="Empty" width="200" />
+            <img src="./img/browser-svgrepo-com.svg" alt="Empty" width="50" />
             <div class="empty-list__title">Список дел пуст</div>
           </li>`
 
